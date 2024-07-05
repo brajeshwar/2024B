@@ -1,0 +1,28 @@
+url: "https://brajeshwar.github.io/2024B"
+baseurl: "/2024B"
+title: "Brajeshwar"
+
+plugins:
+  - jekyll-postcss
+
+sass:
+  sourcemap: never
+
+postcss:
+  cache: false
+
+exclude:
+  - .gitignore
+  - bin
+  - node_modules
+  - package.json
+  - package-lock.json
+  - postcss.config.js
+  - README.md
+  - tailwind.config.js
+  # - assets/css/tailwind.scss
+
+# files Jekyll should not delete from .site
+keep_files:
+  - assets/css/tailwind.css
+  - assets/css/tailwind.css.map
