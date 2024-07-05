@@ -1,5 +1,5 @@
-url: "https://brajeshwar.github.io"
-baseurl: "/2024B"
+url: ""
+baseurl: ""
 title: "Brajeshwar"
 
 plugins:
@@ -20,7 +20,6 @@ exclude:
   - postcss.config.js
   - README.md
   - tailwind.config.js
-  # - assets/css/tailwind.scss
 
 # files Jekyll should not delete from .site
 keep_files:
