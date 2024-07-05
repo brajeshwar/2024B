@@ -7,3 +7,5 @@ Branch: gh-pages
 Settings > Action > General > Workflow Permissions
 [x] Read and write permissions
 [x] Allow Github Actions to create and approve pull requests
+
+Need to use Github Token via Secrets
